@@ -37,22 +37,22 @@ import nl.tudelft.bt.model.reaction.*;
  * 
  * @author Joao Xavier (j.xavier@tnw.tudelft.nl)
  */
-public class Example1 extends GranuleModelHandler {
-	// All the model parameters are defined here as static attrributes
-	// at the begining of the Class. This way, they can be easily changed
+public class Example1 extends ModelHandler {
+	// All the model parameters are defined here as static attributes
+	// at the beginning of the Class. This way, they can be easily changed
 	// without changing the remaining program
 
 	// output directory name (
 	protected static String outputDirectory = "/Users/xavierj/results/";
 
-	// WARNING: the contents of the outputdirectory will be deleted!!
+	// WARNING: the contents of the outputDirectory will be deleted!!
 	// Be sure not to choose a directory were you have important information
 	// stored.
 	// The output directory is were the program will store all the results.
 	// Choose a path to an existing folder in your system.
 	// EXAMPLE: if you choose "e:/results/example1/" directory "e:\results" must
 	// exist in your computer. The subdirectory "example1" will be created
-	// if it is non-existant. If it exists, its contents will be deleted
+	// if it is non-existent. If it exists, its contents will be deleted
 	// during the program initialization
 
 	// geometry (default is 2D) - change value to 3 for 3D
